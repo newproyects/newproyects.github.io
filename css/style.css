@@ -1,3 +1,23 @@
 h1{
     background: #5F9EA0
 }
+.asm{
+    background: #A52A2A
+}
+
+.low{
+    background: #00008B
+}
+
+.low_script{
+    color: #00008B
+}
+
+.high{
+    background: #FF8C00
+}
+
+code{
+  font-size: 15px;
+  white-space: pre;
+}
