@@ -107,5 +107,88 @@
       del codigo desde el primer instante, por lo que en el caso de haber errores, este interrumpira dicha ejecución
       y notificara el error.
     </p>
+    <h3 class="formu">Formulario de registro del programador</h3>
+    <form action="">
+      <div>
+	<label for="nombre">Nombre:</label>
+	<input type="text" name="nombre" placeholder="primer nombre">
+      </div>
+      <br>
+      <div>
+	<label for="apellido">Apellido:</label>
+	<input type="text" name="apellido" id="apellido" placeholder="primer apellido">
+      </div>
+      <br>
+      <div>
+	<label for="edad">Edad:</label>
+	<input type="text" name="edad" maxlength="10" id="edad" value="18">
+      </div>
+      <br>
+      <div>
+	<label for="fecha">Fecha de nacimiento:</label>
+	<br>
+	<input type="date" name="fecha" id="fecha">
+      </div>
+      <br>
+      <div>
+	<label for="genero">Genero:</label>
+	<br>
+	<input type="radio">Masculino
+	<input type="radio">Femenino
+	<input type="radio">Otro
+      </div>
+      <br>
+      <div>
+	<label for="selecmul">Lenguaje principal:</label>
+	<br>
+	<select type="selecmul">
+	  <option value="C">C</option>
+	  <option value="C++">C++</option>
+	  <option value="Objective-C">Objective-C</option>
+	  <option value="Swift">Swift</option>
+	  <option value="C#">C#</option>
+	  <option value="Java">Java</option>
+	  <option value="Kotlin">Kotlin</option>
+	  <option value="Go">Go</option>
+	  <option value="Javascript">Javascript</option>
+	  <option value="Python">Python</option>
+	  <option value="Ruby">Ruby</option>
+	  <option value="Php">Php</option>
+	  <option value="Perl">Perl</option>
+	  <option value="Otro">Otro</option>
+	</select>
+      </div>
+      <br>
+      <div>
+	<label for="button">Color preferido:</label>
+	<br>
+	<input type="color">
+      </div>
+      <br>
+      <div>
+	<label for="descripcion">Descripcion:</label>
+	<br>
+	<textarea name="descripcion" id="descripcion" cols="40" row="4"></textarea>
+      </div>
+      <br>
+      <div>
+	<label for="telefono">Telefono:</label>
+	<input type="number" name="telefono" maxlength="10" id="telefono" placeholder="##########">
+      </div>
+      <br>
+      <div>
+	<label for="correo">Correo:</label>
+	<input type="text" name="correo" placeholder="'usuario'@'servicio'.com">
+      </div>
+      <br>
+      <div>
+	<label for="contraseña">Contraseña:</label>
+	<input type="password" name="contraseña" maxlength="10" id="contraseña" placeholder="**********">
+      </div>
+      <br>
+      <div>
+	<input type="submit" value="Enviar">
+      </div>
+    </form>
   </body>
 </html>
