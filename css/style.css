@@ -1,47 +1,47 @@
 h1{
-    background: #5F9EA0
+    background: #5F9EA0;
 }
 .asm{
-    background: #A52A2A
+    background: #A52A2A;
 }
 
 .asm_script{
-    color: #A52A2A
+    color: #A52A2A;
 }
 
 .low{
-    background: #00008B
+    background: #00008B;
 }
 
 .low_script{
-    color: #00008B
+    color: #00008B;
 }
 
 .high{
-    background: #FF8C00
+    background: #FF8C00;
 }
 
 .high_script{
-    color: #FF8C00
+    color: #FF8C00;
 }
 
 code{
   font-size: 15px;
-  white-space: pre;
+  white-space: pre;;
 }
 
 .comp{
-    background: #006400
+    background: #006400;
 }
 
 .inter{
-    background: #FF7F50
+    background: #FF7F50;
 }
 
 .formu{
-    background: #00FFFF
+    background: #00FFFF;
 }
 
 .foot{
-    background: #2F4F4F
+    background: #2F4F4F;
 }
