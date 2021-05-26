@@ -5,6 +5,10 @@ h1{
     background: #A52A2A
 }
 
+.asm_script{
+    color: #A52A2A
+}
+
 .low{
     background: #00008B
 }
@@ -15,6 +19,10 @@ h1{
 
 .high{
     background: #FF8C00
+}
+
+.high_script{
+    color: #FF8C00
 }
 
 code{

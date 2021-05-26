@@ -26,6 +26,36 @@
       características principales, si estos son compilados o interpretados, y si son de alto nivel,
       bajo nivel o ensambladores.
     </p>
+    <h3 class="asm">Lenguaje ensamblador</h3>
+    <p>
+      Lenguajes ensambladores, son aquellos que representan sequencias del lenguaje maquina,
+      por medio de un conjunto de mnemónicos, siendo estos ordenes directas sobre el hardware,
+      por lo que este tipo de lenguajes suelen usarse mas frecuentemente en el software base de
+      microcontroladores, procesadores, y todo tipo de equipos.
+      <section class="asm_script">
+	<code>
+	     section .data
+
+	     m1 db "hello world!"
+	     l1 equ $- m1
+
+	     global _start
+
+	     section .text
+	     
+	  _start:
+	     mov eax,4
+	     mov ebx,1
+	     mov ecx,m1
+	     mov edx,l1
+	     int 0x80
+
+	     mov eax,1
+	     int 0x80
+	     ;; assembler hello world!
+	</code>
+      </section>
+      <br>
     <h3 class="low">Lenguajes de bajo nivel</h3>
     <p>
       Se trata de aquellos lenguajes orientados al hardware, por lo que resultan practicos para el desarrollo,
@@ -39,7 +69,7 @@
 	     printf("hello world!\n");
 	     return 0;
 	  }
-	  //C hello world!
+	  // C hello world!
 	</code>
       </section>
       <br>
